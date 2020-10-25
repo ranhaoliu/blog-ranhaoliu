@@ -1,0 +1,11 @@
+server:
+  port:
+    8866
+spring:            #全局配置
+  thymeleaf:
+    cache: false
+  profiles:
+    active: dev
+
+
+comment.avatar: /images/avatar.jpg
